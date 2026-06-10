@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping card</title>
+    <script src="https://kit.fontawesome.com/b1aaba9b3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            background-color:whitesmoke;
+            padding: 50px;
+            margin: 15px;
+            border-radius: 15px;
+            height: auto;
+            box-shadow: black;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-around; 
+        }
+        .btn{
+            padding: 20px;
+            margin-top: auto;
+            border-radius: 10px;
+            background-color: rgba(32, 172, 237, 0.812);
+            border: 1px solid gray;
+            cursor: pointer;
+            width: 150px;
+            color: white;
+        }
+       
+        .btn:hover{
+            background-color: blue;
+        }
+
+    </style>
+    <div class="content">
+        <img src="https://media.istockphoto.com/id/458551081/photo/skechers-shape-ups.jpg?s=612x612&w=0&k=20&c=7nEBucyYXtDFQSgX1x4Ym2N6idk3gdFggq_4fpdw4Ac=" alt="Elegant Handbag"
+        style="width: 400px; height: auto; border-radius: 10px; object-fit: cover; margin-bottom: 20px;">
+        <div class="card-div">
+            <h1>An Elegant Skechers</h1>
+            <p>Smash it Don't miss it! Few remain on Store.</p>
+        </div>
+        <div class="buttons">
+            <button class="btn">SHOP NOW</button>
+            <button class="btn"><i class="fa-solid fa-cart-arrow-down"></i>ADD TO CART</button>
+        </div>
+    </div>
+</body>
+</html>
