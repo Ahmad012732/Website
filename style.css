@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    gap: 20px;
+   
+
+}
+.content1{
+    width: 500px;
+   
+}
+.content1 h1{
+    font-weight: bolder;
+    color: blueviolet;
+    font-size: xx-large;
+}
+.content1 p{
+    color: gray;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px;
+}
+.btn:hover{
+    background-color: darkorchid;
+}
+.content2{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 100px;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.content2 h1{
+    color: blueviolet;
+    text-align: center;
+}
+.login-form{
+    padding: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.login-form input[type="email"]{
+   padding: 10px;
+   border-radius: 5px;
+  border: 1px solid blueviolet;
+
+}
+.login-form input[type="fname"]{
+    padding: 10px;
+   border-radius: 5px;
+   border: 1px solid blueviolet;
+}
+.login-form input[type="phone"]{
+    padding: 10px;
+   border-radius: 5px;
+   border: 1px solid blueviolet;
+}
+.log-btn{
+    padding: 10px;
+   border-radius: 30px;
+   border: 1px solid gray;
+   background-color: blueviolet;
+   color: white;
+   cursor: pointer;
+   box-shadow: 10px;
+   margin-bottom: 10px;
+}
+.log-btn:hover{
+    background-color: darkorchid;
+}
