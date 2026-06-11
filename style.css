@@ -33,7 +33,7 @@ body{
     border: 1px solid black;
     color: white;
     cursor: pointer;
-    box-shadow: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 .btn:hover{
     background-color: darkorchid;
@@ -43,7 +43,7 @@ body{
     background-color: white;
     border-radius: 10px;
     border: none;
-    box-shadow: 100px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     align-items: center;
     height: 300px;
     margin-bottom: 100px;
